@@ -6,7 +6,6 @@ if [ "$1" != "pgbadger" ]; then
 fi
 
 mkdir -p "$PGBADGER_DATA"
-chmod 700 "$PGBADGER_DATA"
 
 set -- "$@" --jobs $(nproc) --outdir "$PGBADGER_DATA"
 
