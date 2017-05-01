@@ -11,7 +11,7 @@ RUN apk --no-cache add coreutils \
     openssl \
     perl \
   && mkdir -p /data /opt \
-  && wget -O - https://github.com/dalibo/pgbadger/archive/v${PGBADGER_VERSION}.tar.gz | tar -zxvf - -C /opt
+  && wget -O - https://github.com/dalibo/pgbadger/archive/v${PGBADGER_VERSION}.tar.gz | tar -zxvf - -C /opt \
   && chmod +x ${PGBADGER_PREFIX}/pgbadger
 
 COPY docker-entrypoint.sh /entrypoint.sh
