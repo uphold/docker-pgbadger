@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-MAINTAINER Rui Marinho <rui@uphold.com> (@ruimarinho)
+LABEL maintainer="Rui Marinho <rui@uphold.com> (@ruimarinho)"
 
 ENV PGBADGER_DATA=/data
 ENV PGBADGER_VERSION=8.1
