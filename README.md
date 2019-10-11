@@ -4,7 +4,7 @@ A pgBadger docker image.
 [![uphold/pgbadger][docker-pulls-image]][docker-hub-url] [![uphold/pgbadger][docker-stars-image]][docker-hub-url] [![uphold/pgbadger][docker-size-image]][docker-hub-url] [![uphold/pgbadger][docker-layers-image]][docker-hub-url]
 
 ## Supported tags and respective `Dockerfile` links
-- `8.1`, `latest` ([Dockerfile](Dockerfile))
+- `9.1`, `latest` ([Dockerfile](Dockerfile))
 
 ## What is pgBadger?
 
@@ -47,7 +47,7 @@ The `uphold/pgbadger` image comes in multiple flavors:
 Points to the latest release available of `pgBadger`.
 
 ### `uphold/pgbadger:<version>`
-Targets a specific version of `pgBadger` (e.g. `8.1`).
+Targets a specific version of `pgBadger` (e.g. `9.1`).
 
 ## Supported Docker versions
 This image is officially supported on Docker version 1.11, with support for older versions provided on a best-effort basis.
