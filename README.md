@@ -4,7 +4,7 @@ A pgBadger docker image.
 [![uphold/pgbadger][docker-pulls-image]][docker-hub-url] [![uphold/pgbadger][docker-stars-image]][docker-hub-url] [![uphold/pgbadger][docker-size-image]][docker-hub-url] [![uphold/pgbadger][docker-layers-image]][docker-hub-url]
 
 ## Supported tags and respective `Dockerfile` links
-- `8.1`, `latest` ([Dockerfile](Dockerfile))
+- `8.1`, `11.1`, `latest` ([Dockerfile](Dockerfile))
 
 ## What is pgBadger?
 
