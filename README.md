@@ -1,7 +1,11 @@
 # uphold/pgbadger
-A pgBadger docker image.
+A [pgBadger](https://github.com/darold/pgbadger) Docker image.
 
-[![uphold/pgbadger][docker-pulls-image]][docker-hub-url] [![uphold/pgbadger][docker-stars-image]][docker-hub-url] [![uphold/pgbadger][docker-size-image]][docker-hub-url] [![uphold/pgbadger][docker-layers-image]][docker-hub-url]
+[![uphold/pgbadger][docker-pulls-image]][docker-hub-url]
+[![uphold/pgbadger][docker-stars-image]][docker-hub-url]
+[![uphold/pgbadger][docker-size-image]][docker-hub-url]
+[![uphold/pgbadger][docker-layers-image]][docker-hub-url]
+[![Travis build status][travis-image]][travis-url]
 
 ## Supported tags and respective `Dockerfile` links
 - `8.1`, `11.1`, `latest` ([Dockerfile](Dockerfile))
@@ -58,7 +62,9 @@ This image is officially supported on Docker version 1.11, with support for olde
 [License information](LICENSE) for the [uphold/docker-pgbadger](https://hub.docker.com/r/uphold/pgbadger) docker project.
 
 [docker-hub-url]: https://hub.docker.com/r/uphold/pgbadger
-[docker-layers-image]: https://img.shields.io/imagelayers/layers/uphold/pgbadger/latest.svg?style=flat-square
+[docker-layers-image]: https://img.shields.io/microbadger/layers/uphold/pgbadger/latest.svg?style=flat-square
 [docker-pulls-image]: https://img.shields.io/docker/pulls/uphold/pgbadger.svg?style=flat-square
-[docker-size-image]: https://img.shields.io/imagelayers/image-size/uphold/pgbadger/latest.svg?style=flat-square
+[docker-size-image]: https://img.shields.io/microbadger/image-size/uphold/pgbadger/latest.svg?style=flat-square
 [docker-stars-image]: https://img.shields.io/docker/stars/uphold/pgbadger.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/uphold/docker-pgbadger?style=flat-square
+[travis-url]: https://travis-ci.org/uphold/docker-pgbadger
